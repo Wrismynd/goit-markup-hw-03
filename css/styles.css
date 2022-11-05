@@ -103,13 +103,16 @@ a.current {
   letter-spacing: 0.03em;
 }
 
+header .logo {
+  margin-right: 93px;
+}
+
 .logo-link {
   padding-top: 24px;
 }
 
 .header-logo {
   color: #000000;
-  margin-right: 93px;
 }
 
 ul.contacts-wrap li:not(:last-child) {
@@ -401,18 +404,13 @@ footer .logo {
 
 .examples-list {
   display: flex;
-  margin-right: -30px;
+  gap: 30px;
   flex-wrap: wrap;
   margin-top: 50px;
 }
 
 .examples-item {
   flex-basis: calc((100% - 90px) / 3);
-  margin-right: 30px;
-}
-
-.examples-item:nth-child(-n + 6) {
-  margin-bottom: 30px;
 }
 
 .examples-img {
