@@ -409,10 +409,6 @@ footer .logo {
   margin-top: 50px;
 }
 
-.examples-item {
-  flex-basis: calc((100% - 90px) / 3);
-}
-
 .examples-img {
   display: block;
 }
